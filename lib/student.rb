@@ -5,4 +5,7 @@ class Student < User
     knowledge << string_of_knowledge
   end
 
+  def knowledge
+    knowledge
+  end
 end
