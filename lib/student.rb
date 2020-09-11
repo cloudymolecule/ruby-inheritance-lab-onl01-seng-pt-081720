@@ -4,6 +4,7 @@ class Student < User
 
   def initialize
     @knowledge = know
+  end
 
   def learn(string_of_knowledge)
     know << string_of_knowledge
